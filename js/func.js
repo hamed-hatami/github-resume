@@ -59,7 +59,7 @@ $(function () {
         $.ajax({
             url: url,
             async: false,
-            headers: { Authorization: "token 6ad87c4135516f54705cdca5d0c6154483359796" },
+            //headers: { Authorization: "token 6ad87c4135516f54705cdca5d0c6154483359796" },
             complete: function (xhr) {
                 callback.call(null, xhr.responseJSON);
             }
